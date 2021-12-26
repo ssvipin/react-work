@@ -1,0 +1,96 @@
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+#root
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.site-container
+{
+  width:90%;
+}
+h1 
+{
+  font-weight: 700;
+}
+h4,p
+{
+  display: inline-block;
+  margin-left:.2em;
+}
+.email,.appointment,.phone
+{
+  margin-top:1em;
+}
+.pageTop
+{
+  display: flex;
+  justify-content: space-between;
+  border-bottom:1px solid black;
+  align-items: center;
+  padding-right:3em;
+  padding-left:2em;
+  padding:1em 0;
+  border-radius:3px;
+}
+.print button
+{
+  padding:.7em 1em;
+  background-color: black;
+  color:white;
+}
+.print button:hover
+{
+  cursor: pointer;
+}
+.customer-info
+{
+  border:1px solid black;
+  border-radius:3px;
+  margin-top:2em;
+  padding-right:3em;
+  padding-left:2em;
+  padding:1em 0;
+}
+.order-info
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top:2em;
+  border:1px solid black;
+  background-color:#f2f2f2;
+  padding-right:3em;
+  padding-left:2em;
+  border-radius:3px;
+}
+li
+{
+  list-style-position: inside;
+}
+img 
+{
+  height:100%;
+  margin-left:2em;
+}
+.product-details
+{
+  margin-top:2em;
+  display: flex;
+  height:40vh;
+  padding:2em 3em 2em 2em;
+  border-radius:3px;
+  border:1px solid black;
+}
+.checkbox
+{
+  align-self: center;
+}
+.details 
+{
+  margin-left:2em;
+}
